@@ -1,4 +1,4 @@
-// first and last position of element in sorted array
+// binary search in a sorted array
 
 const first_and_last = (nums, target) => {
   left = 0;
