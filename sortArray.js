@@ -21,12 +21,16 @@ console.log(bubbleSort([5, 2, 9, 1]));
 // challenge remove duplicates if there are some
 
 const removeDuplicatesFromSortedArray = (array) => {
+  //define empty array
   let newArray = [];
+  //loop through
   for (let i = 0; i < array.length; i++) {
+    //check if the number at current index is not allready in the new array to avoid duplicates then if its true push the value at the index into new array
     if (!newArray.includes(array[i])) {
       newArray.push(array[i]);
     }
   }
+  // return new array
   return newArray;
 };
 
